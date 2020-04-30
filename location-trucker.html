@@ -57,9 +57,36 @@
 </div> <!-- end row -->
     
 <div class="row location-color">
-    <div class="col-md-12 wait-time">
+    <div class="col-md-6 wait-time">
         <p class="location-heading" style = "margin-top: 15px;">Amenities:</p>
     </div> <!-- end col div-->
+    <div class="col-md-6" style="text-align:right;"><button type="button" style="margin-top:10px;margin-bottom:10px;font-size:18px;" class="input-heading done btn btn-lg" data-toggle="modal" data-target="#myModal">Key</button></div> <!--end modal button div-->
+    
+     <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="location-heading">Key</h4>
+        </div>
+        <div class="subheads" style="font-size:16px;">
+          <p style="padding-left:15px;"><img src=images/breakroom.png alt="breakroom" style="max-width:20%">= Break Room</p>
+            <p style="padding-left:15px;"><img src=images/parking.png alt="parking" style="max-width:20%">= Overnight Parking</p>
+            <p style="padding-left:15px;"><img src=images/restroom.png alt="restrooms" style="max-width:20%">= Restrooms</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div><!--end modal footer-->
+      </div> <!--end modal content-->
+    </div><!--end modal dialog-->
+  </div> <!--end modal fade-->
+    
+    
+    
+    
     <div class="col-md-12">
         <img src="images/breakroom.png" alt="Breakroom" class="img-fluid"><img src="images/parking.png" alt="Parking" class="img-fluid">
         <img src="images/restroom.png" alt="Restroom" class="img-fluid"><br><br> 
